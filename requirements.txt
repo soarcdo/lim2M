@@ -1,0 +1,12 @@
+discord.py
+asyncio
+math
+time
+random
+threading
+sched
+datetime.datetime
+datetime.timedelta
+discord.ext.tasks
+discord.ext.commands
+os
