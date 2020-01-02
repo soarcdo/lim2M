@@ -46,8 +46,8 @@ timelist = ["1","2","3","4","5","6","7","8","9","10",
             "11","12","13","14","15","16","17","18","19","20",
             "21","22","23","24"]
 app = discord.Client()
-token = "NjYxMDM0Njc0OTUyMzM5NDc1.Xglm0Q.i0gVM7IdbjTQLZw8VwIgqogXfT4"
-token2 = "NjYxNTEzMjI4MDM1MjkzMTg1.Xgsggg.gYmXCxCnwMCOBcf9-87KfVDQa4E"
+token = os.environ["BOT_TOKEN"]
+token2 = os.environ["BOT_TOKEN"]
 game = discord.Game(name="Chacking", type=8)
 discordid = 386533767172456448  # 롤합시다 내 개인서버 테스트용 아이디
 discordidlegend = 651046104921800727 #레전드서버 채팅채널아이디
@@ -568,6 +568,6 @@ def BossCut(bossname):
 #def Dice():
 
 slow_count.start()
-app.run(token2)
+app.run(access_token)
 
 
